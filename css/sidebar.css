@@ -100,6 +100,11 @@ i{
     top: 20px;
     left: 50px;
 }
+ 
+.show-btn a :hover,.hide-btn a :hover{
+   color: green;
+}
+
 .hide-btn{
     opacity: 0;
 }
