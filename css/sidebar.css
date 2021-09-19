@@ -70,8 +70,14 @@ a i{
     margin-right: 15px;
 }
 .sidebar ul li a:hover{
-    border-left: 15px solid white;
+    border-left: 15px solid red;
 
+}
+.sidebar ul li a :hover{
+    color: red;
+}
+.sidebar i:hover{
+    color: red;
 }
 .social{
     margin-top: 200px;
@@ -89,7 +95,7 @@ i{
 }
 .show-btn,.hide-btn{
     font-size: 35px;
-    color: white;
+    color:white;
     position: fixed;
     top: 20px;
     left: 50px;
