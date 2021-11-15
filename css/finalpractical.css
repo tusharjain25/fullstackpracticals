@@ -1,0 +1,87 @@
+.container{
+    height:80px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.items{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px ;
+}
+.logo{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px ;
+}
+h2{
+  margin-top: 40px;
+  text-align: center;
+ 
+}
+.mainContainer{
+  display: inline-flex;
+  height: 510px;
+  width: 270px;
+  margin-top: 80px;
+}
+.imageContainer{
+  align-items: center ;
+  margin: 40px;
+ margin-right: 100px;
+ margin-left: 100px;
+}
+img{
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+}
+.card{
+  background-color:white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.heading{
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;   
+}
+.paragraphContainer{
+  height: 197px;
+  margin: 15px;
+  text-align: left;
+  overflow: hidden;
+}
+.paragraph{
+  margin-left: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.button{
+  background-color: rgb(218, 26, 26);
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin : 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  display:block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+a:hover{
+  background: blue;
+ 
+}   
